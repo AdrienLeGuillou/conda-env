@@ -1,5 +1,4 @@
-conda install conda-build \
-              scikit-learn \
+conda install scikit-learn \
               numpy \
               matplotlib \
               seaborn \
@@ -11,3 +10,5 @@ conda install conda-build \
 
 conda install -c r r-irkernel \
                    r-tidyverse
+
+pip install python-language-server[all]
